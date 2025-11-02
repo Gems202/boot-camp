@@ -18,7 +18,7 @@ function MyPage() {
         them to solve problems.
       </p>
       <input placeholder="Input..." />
-      <p>Double Count: {doubleCount}</p>
+      <p>Double Count : {doubleCount}</p>
       <button ref={buttonRef} onClick={() => setCount(count + 1)}>
         Click {count} times
       </button>
